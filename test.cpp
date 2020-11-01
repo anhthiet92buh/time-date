@@ -21,11 +21,20 @@ int main(int argc, char const *argv[])
     cout << "tong thoi gian CPU chay la:" << total<< endl;
 
     // in gioi han nam trong C
-    
+       
 
 
 
-    
+
+
+
+
+
+       
+
+
+
+
 
     return 0;
 }
