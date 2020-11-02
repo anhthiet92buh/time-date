@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     time_t ht = time (0);
     
     tm*ltm = localtime(&ht);
-    printf("++++%c\n",ltm->tm_year=100);
+    //printf("++++%c\n",ltm->tm_year=100);
     cout<<ht<<endl;
     end = clock();
     cout<<"thoi gian ket thuc la:" << end<< endl;
