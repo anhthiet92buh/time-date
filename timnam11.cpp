@@ -63,336 +63,336 @@ int main()
             if ((ngay_trong4nam >= 0) && (ngay_trong4nam<31))
             {
                 ngay_trongthang = 1 + ngay_trong4nam;
-                y = 1970 + (4*b);
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
                 cout << "chay het nhanh:" <<endl;
             }
-            if ((ngay_trong4nam >=31) && (ngay_trong4nam<59))
+            if ((ngay_trong4nam >=31) && (ngay_trong4nam<60))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 31;
-                y = 1970 + (4*b);
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 59) && (ngay_trong4nam < 90))
+            if ((ngay_trong4nam >= 60) && (ngay_trong4nam < 91))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 59;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 60;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 90) && (ngay_trong4nam < 120))
+            if ((ngay_trong4nam >= 91) && (ngay_trong4nam < 121))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 90;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 91;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 120) && (ngay_trong4nam < 151))
+            if ((ngay_trong4nam >= 121) && (ngay_trong4nam < 152))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 120;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 121;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 151) && (ngay_trong4nam < 181))
+            if ((ngay_trong4nam >= 152) && (ngay_trong4nam < 182))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 151;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 152;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 181) && (ngay_trong4nam < 212))
+            if ((ngay_trong4nam >= 182) && (ngay_trong4nam < 213))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 181;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 182;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 212) && (ngay_trong4nam < 243))
+            if ((ngay_trong4nam >= 213) && (ngay_trong4nam < 244))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 212;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 213;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 243) && (ngay_trong4nam < 273))
+            if ((ngay_trong4nam >= 244) && (ngay_trong4nam < 274))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 243;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 244;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 273) && (ngay_trong4nam < 304))
+            if ((ngay_trong4nam >= 274) && (ngay_trong4nam < 305))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 273;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 274;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >=304) && (ngay_trong4nam < 334))
+            if ((ngay_trong4nam >=305) && (ngay_trong4nam < 335))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 304;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 305;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 334) && (ngay_trong4nam<365))
+            if ((ngay_trong4nam >= 335) && (ngay_trong4nam<366))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 334;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 335;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 365) && (ngay_trong4nam<396))
+            if ((ngay_trong4nam >= 366) && (ngay_trong4nam<397))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 365;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 366;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 396) && (ngay_trong4nam<424))
+            if ((ngay_trong4nam >= 397) && (ngay_trong4nam<425))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 396;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 397;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 424) && (ngay_trong4nam<455))
+            if ((ngay_trong4nam >= 425) && (ngay_trong4nam<456))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 424;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 425;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 455) && (ngay_trong4nam<485))
+            if ((ngay_trong4nam >= 456) && (ngay_trong4nam<486))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 455;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 456;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 485) && (ngay_trong4nam < 516))
+            if ((ngay_trong4nam >= 486) && (ngay_trong4nam < 517))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 485;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 486;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 516) && (ngay_trong4nam<546))
+            if ((ngay_trong4nam >= 517) && (ngay_trong4nam<547))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 516;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 517;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 546) && (ngay_trong4nam<577))
+            if ((ngay_trong4nam >= 547) && (ngay_trong4nam<578))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 546;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 547;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 577) && (ngay_trong4nam<608))
+            if ((ngay_trong4nam >= 578) && (ngay_trong4nam<609))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 577;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 578;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 608) && (ngay_trong4nam<638))
+            if ((ngay_trong4nam >= 609) && (ngay_trong4nam<639))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 608;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 609;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 638) && (ngay_trong4nam<669))
+            if ((ngay_trong4nam >= 639) && (ngay_trong4nam<670))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 638;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 639;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 669) && (ngay_trong4nam<699))
+            if ((ngay_trong4nam >= 670) && (ngay_trong4nam<700))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 669;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 670;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 699) && (ngay_trong4nam<730))
+            if ((ngay_trong4nam >= 700) && (ngay_trong4nam<731))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 699;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 700;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 730) && (ngay_trong4nam<761))
+            if ((ngay_trong4nam >= 731) && (ngay_trong4nam<762))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 730;
-                y = 1970 + (4*b) +2;
+                ngay_trongthang = 1 + ngay_trong4nam - 731;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 761) && (ngay_trong4nam<790))
+            if ((ngay_trong4nam >= 762) && (ngay_trong4nam<790))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 761;
-                y = 1970 + (4*b) +2;
+                ngay_trongthang = 1 + ngay_trong4nam - 762;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 790) && (ngay_trong4nam<821))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 790;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 821) && (ngay_trong4nam<851))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 821;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 851) && (ngay_trong4nam<882))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 851;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 882) && (ngay_trong4nam<912))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 882;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 912) && (ngay_trong4nam<943))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 912;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 943) && (ngay_trong4nam < 974))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 943;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 974) && (ngay_trong4nam<1004))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 974;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1004) && (ngay_trong4nam<1035))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1004;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1035) && (ngay_trong4nam<1065))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1035;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1065) && (ngay_trong4nam<1096))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1065;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1096) && (ngay_trong4nam<1127))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1096;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1127) && (ngay_trong4nam<1155))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1127;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1155) && (ngay_trong4nam<1186))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1155;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1186) && (ngay_trong4nam<1216))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1186;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1216) && (ngay_trong4nam<1247))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1216;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }if ((ngay_trong4nam >= 1247) && (ngay_trong4nam<1277))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1247;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1277) && (ngay_trong4nam<1308))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1277;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1308) && (ngay_trong4nam<1339))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1308;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1339) && (ngay_trong4nam<1369))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1339;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1369) && (ngay_trong4nam<1400))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1369;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1400) && (ngay_trong4nam<1430))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1400;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1430) && (ngay_trong4nam<1461))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1430;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
@@ -403,335 +403,335 @@ int main()
             if ((ngay_trong4nam >= 0) && (ngay_trong4nam<31))
             {
                 ngay_trongthang = 1 + ngay_trong4nam;
-                y = 1970 + (4*b);
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout <<gio<<": "<< phut <<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >=31) && (ngay_trong4nam<59))
+            if ((ngay_trong4nam >=31) && (ngay_trong4nam<60))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 31;
-                y = 1970 + (4*b);
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 59) && (ngay_trong4nam < 90))
+            if ((ngay_trong4nam >= 60) && (ngay_trong4nam < 91))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 59;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 60;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 90) && (ngay_trong4nam < 120))
+            if ((ngay_trong4nam >= 91) && (ngay_trong4nam < 121))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 90;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 91;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 120) && (ngay_trong4nam < 151))
+            if ((ngay_trong4nam >= 121) && (ngay_trong4nam < 152))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 120;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 121;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 151) && (ngay_trong4nam < 181))
+            if ((ngay_trong4nam >= 152) && (ngay_trong4nam < 182))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 151;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 152;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 181) && (ngay_trong4nam < 212))
+            if ((ngay_trong4nam >= 182) && (ngay_trong4nam < 213))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 181;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 182;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 212) && (ngay_trong4nam < 243))
+            if ((ngay_trong4nam >= 213) && (ngay_trong4nam < 244))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 212;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 213;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 243) && (ngay_trong4nam < 273))
+            if ((ngay_trong4nam >= 244) && (ngay_trong4nam < 274))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 243;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 244;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 273) && (ngay_trong4nam < 304))
+            if ((ngay_trong4nam >= 274) && (ngay_trong4nam < 305))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 273;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 274;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >=304) && (ngay_trong4nam < 334))
+            if ((ngay_trong4nam >=305) && (ngay_trong4nam < 335))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 304;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 305;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 334) && (ngay_trong4nam<365))
+            if ((ngay_trong4nam >= 335) && (ngay_trong4nam<366))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 334;
-                y = 1970 + (4*b);
+                ngay_trongthang = 1 + ngay_trong4nam - 335;
+                y = 2000 + (4*b);
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60<<endl;
             }
-            if ((ngay_trong4nam >= 365) && (ngay_trong4nam<396))
+            if ((ngay_trong4nam >= 366) && (ngay_trong4nam<397))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 365;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 366;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 396) && (ngay_trong4nam<424))
+            if ((ngay_trong4nam >= 397) && (ngay_trong4nam<425))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 396;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 397;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 424) && (ngay_trong4nam<455))
+            if ((ngay_trong4nam >= 425) && (ngay_trong4nam<456))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 424;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 425;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 455) && (ngay_trong4nam<485))
+            if ((ngay_trong4nam >= 456) && (ngay_trong4nam<486))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 455;
-                y = 1970 + (4*b) +1;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 485) && (ngay_trong4nam < 516))
+            if ((ngay_trong4nam >= 486) && (ngay_trong4nam < 517))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 485;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 486;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 516) && (ngay_trong4nam<546))
+            if ((ngay_trong4nam >= 517) && (ngay_trong4nam<547))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 516;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 517;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 546) && (ngay_trong4nam<577))
+            if ((ngay_trong4nam >= 547) && (ngay_trong4nam<578))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 546;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 547;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 577) && (ngay_trong4nam<608))
+            if ((ngay_trong4nam >= 578) && (ngay_trong4nam<609))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 577;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 578;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 608) && (ngay_trong4nam<638))
+            if ((ngay_trong4nam >= 609) && (ngay_trong4nam<639))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 608;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 609;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 638) && (ngay_trong4nam<669))
+            if ((ngay_trong4nam >= 639) && (ngay_trong4nam<670))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 638;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 639;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 669) && (ngay_trong4nam<699))
+            if ((ngay_trong4nam >= 670) && (ngay_trong4nam<700))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 669;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 670;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 699) && (ngay_trong4nam<730))
+            if ((ngay_trong4nam >= 700) && (ngay_trong4nam<731))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 699;
-                y = 1970 + (4*b) +1;
+                ngay_trongthang = 1 + ngay_trong4nam - 700;
+                y = 2000 + (4*b) +1;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 730) && (ngay_trong4nam<761))
+            if ((ngay_trong4nam >= 731) && (ngay_trong4nam<762))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 730;
+                ngay_trongthang = 1 + ngay_trong4nam - 731;
                 y = 1970 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
-            if ((ngay_trong4nam >= 761) && (ngay_trong4nam<790))
+            if ((ngay_trong4nam >= 762) && (ngay_trong4nam<790))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 761;
-                y = 1970 + (4*b) +2;
+                ngay_trongthang = 1 + ngay_trong4nam - 762;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 790) && (ngay_trong4nam<821))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 790;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 821) && (ngay_trong4nam<851))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 821;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 851) && (ngay_trong4nam<882))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 851;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 882) && (ngay_trong4nam<912))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 882;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 912) && (ngay_trong4nam<943))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 912;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 943) && (ngay_trong4nam < 974))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 943;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 974) && (ngay_trong4nam<1004))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 974;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1004) && (ngay_trong4nam<1035))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1004;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1035) && (ngay_trong4nam<1065))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1035;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1065) && (ngay_trong4nam<1096))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1065;
-                y = 1970 + (4*b) +2;
+                y = 2000 + (4*b) +2;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1096) && (ngay_trong4nam<1127))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1096;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1127) && (ngay_trong4nam<1155))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1127;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1155) && (ngay_trong4nam<1186))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1155;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1186) && (ngay_trong4nam<1216))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1186;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1216) && (ngay_trong4nam<1247))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1216;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }if ((ngay_trong4nam >= 1247) && (ngay_trong4nam<1277))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1247;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1277) && (ngay_trong4nam<1308))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1277;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1308) && (ngay_trong4nam<1339))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1308;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1339) && (ngay_trong4nam<1369))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1339;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1369) && (ngay_trong4nam<1400))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1369;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1400) && (ngay_trong4nam<1430))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1400;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
             if ((ngay_trong4nam >= 1430) && (ngay_trong4nam<1461))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1430;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giaykochia60 <<endl;
             }
@@ -760,7 +760,7 @@ int main()
         int ngay_trong4nam;
         if (a % -126230400 == 0)
         {
-            y = 1970 + 4*b;
+            y = 2000 + 4*b;
             ngay_trongthang = Ngay + 1;
             gio = 0;
             phut = 0;
@@ -778,336 +778,336 @@ int main()
             if ((ngay_trong4nam >= 0) && (ngay_trong4nam<31))
             {
                 ngay_trongthang = 1 + ngay_trong4nam;
-                y = 1970 + (4*b)-4;
+                y = 2000 + (4*b)-4;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
                 cout << "chay het nhanh:" <<endl;
             }
-            if ((ngay_trong4nam >=31) && (ngay_trong4nam<59))
+            if ((ngay_trong4nam >=31) && (ngay_trong4nam<60))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 31;
-                y = 1970 + (4*b) -4;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 59) && (ngay_trong4nam < 90))
+            if ((ngay_trong4nam >= 60) && (ngay_trong4nam < 91))
             {
-                ngay_trongthang = 1 +ngay_trong4nam - 59;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 +ngay_trong4nam - 60;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 90) && (ngay_trong4nam < 120))
+            if ((ngay_trong4nam >= 91) && (ngay_trong4nam < 121))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 90;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 91;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 120) && (ngay_trong4nam < 151))
+            if ((ngay_trong4nam >= 121) && (ngay_trong4nam < 152))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 120;
-                y = 1970 + (4*b) -4;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 151) && (ngay_trong4nam < 181))
+            if ((ngay_trong4nam >= 152) && (ngay_trong4nam < 182))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 151;
-                y = 1970 + (4*b) -4 ;
+                ngay_trongthang = 1 + ngay_trong4nam - 152;
+                y = 2000 + (4*b) -4 ;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 181) && (ngay_trong4nam < 212))
+            if ((ngay_trong4nam >= 182) && (ngay_trong4nam < 213))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 181;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 182;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 212) && (ngay_trong4nam < 243))
+            if ((ngay_trong4nam >= 213) && (ngay_trong4nam < 244))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 212;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 213;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 243) && (ngay_trong4nam < 273))
+            if ((ngay_trong4nam >= 244) && (ngay_trong4nam < 274))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 243;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 244;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 273) && (ngay_trong4nam < 304))
+            if ((ngay_trong4nam >= 274) && (ngay_trong4nam < 305))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 273;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 274;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >=304) && (ngay_trong4nam < 334))
+            if ((ngay_trong4nam >=305) && (ngay_trong4nam < 335))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 304;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 305;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 334) && (ngay_trong4nam<365))
+            if ((ngay_trong4nam >= 335) && (ngay_trong4nam<366))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 334;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 335;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 365) && (ngay_trong4nam<396))
+            if ((ngay_trong4nam >= 366) && (ngay_trong4nam<397))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 365;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 366;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 396) && (ngay_trong4nam<424))
+            if ((ngay_trong4nam >= 397) && (ngay_trong4nam<425))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 396;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 397;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 424) && (ngay_trong4nam<455))
+            if ((ngay_trong4nam >= 425) && (ngay_trong4nam<456))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 424;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 425;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 455) && (ngay_trong4nam<485))
+            if ((ngay_trong4nam >= 456) && (ngay_trong4nam<486))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 455;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 456;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 485) && (ngay_trong4nam < 516))
+            if ((ngay_trong4nam >= 486) && (ngay_trong4nam < 517))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 485;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 486;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 516) && (ngay_trong4nam<546))
+            if ((ngay_trong4nam >= 517) && (ngay_trong4nam<547))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 516;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 517;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 546) && (ngay_trong4nam<577))
+            if ((ngay_trong4nam >= 547) && (ngay_trong4nam<578))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 546;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 547;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 577) && (ngay_trong4nam<608))
+            if ((ngay_trong4nam >= 578) && (ngay_trong4nam<609))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 577;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 578;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 608) && (ngay_trong4nam<638))
+            if ((ngay_trong4nam >= 609) && (ngay_trong4nam<639))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 608;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 609;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 638) && (ngay_trong4nam<669))
+            if ((ngay_trong4nam >= 639) && (ngay_trong4nam<670))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 638;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 639;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 669) && (ngay_trong4nam<699))
+            if ((ngay_trong4nam >= 670) && (ngay_trong4nam<700))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 669;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 670;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 699) && (ngay_trong4nam<730))
+            if ((ngay_trong4nam >= 700) && (ngay_trong4nam<731))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 699;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 700;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 730) && (ngay_trong4nam<761))
+            if ((ngay_trong4nam >= 731) && (ngay_trong4nam<762))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 730;
-                y = 1970 + (4*b) -2;
+                ngay_trongthang = 1 + ngay_trong4nam - 731;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 761) && (ngay_trong4nam<790))
+            if ((ngay_trong4nam >= 762) && (ngay_trong4nam<790))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 761;
-                y = 1970 + (4*b) - 2;
+                ngay_trongthang = 1 + ngay_trong4nam - 762;
+                y = 2000 + (4*b) - 2;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 790) && (ngay_trong4nam<821))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 790;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 821) && (ngay_trong4nam<851))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 821;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 851) && (ngay_trong4nam<882))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 851;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 882) && (ngay_trong4nam<912))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 882;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 912) && (ngay_trong4nam<943))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 912;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 943) && (ngay_trong4nam < 974))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 943;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 974) && (ngay_trong4nam<1004))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 974;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1004) && (ngay_trong4nam<1035))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1004;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1035) && (ngay_trong4nam<1065))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1035;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1065) && (ngay_trong4nam<1096))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1065;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1096) && (ngay_trong4nam<1127))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1096;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1127) && (ngay_trong4nam<1155))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1127;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1155) && (ngay_trong4nam<1186))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1155;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1186) && (ngay_trong4nam<1216))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1186;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1216) && (ngay_trong4nam<1247))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1216;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }if ((ngay_trong4nam >= 1247) && (ngay_trong4nam<1277))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1247;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1277) && (ngay_trong4nam<1308))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1277;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1308) && (ngay_trong4nam<1339))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1308;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1339) && (ngay_trong4nam<1369))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1339;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1369) && (ngay_trong4nam<1400))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1369;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1400) && (ngay_trong4nam<1430))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1400;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1430) && (ngay_trong4nam<1461))
             {
                 ngay_trongthang = 1 + ngay_trong4nam -1430 ;
-                y = 1970 + (4*b) - 1;
+                y = 2000 + (4*b) - 1;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
@@ -1121,336 +1121,336 @@ int main()
             if ((ngay_trong4nam >= 0) && (ngay_trong4nam<31))
             {
                 ngay_trongthang = 1 + ngay_trong4nam;
-                y = 1970 + (4*b)-4;
+                y = 2000 + (4*b)-4;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
                 cout << "chay het nhanh:" <<endl;
             }
-            if ((ngay_trong4nam >=31) && (ngay_trong4nam<59))
+            if ((ngay_trong4nam >=31) && (ngay_trong4nam<60))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 31;
-                y = 1970 + (4*b) -4;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 59) && (ngay_trong4nam < 90))
+            if ((ngay_trong4nam >= 60) && (ngay_trong4nam < 91))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 59;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 60;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 90) && (ngay_trong4nam < 120))
+            if ((ngay_trong4nam >= 91) && (ngay_trong4nam < 121))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 90;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 91;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 120) && (ngay_trong4nam < 151))
+            if ((ngay_trong4nam >= 121) && (ngay_trong4nam < 152))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 120;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 121;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 151) && (ngay_trong4nam < 181))
+            if ((ngay_trong4nam >= 152) && (ngay_trong4nam < 182))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 151;
-                y = 1970 + (4*b) -4 ;
+                ngay_trongthang = 1 + ngay_trong4nam - 152;
+                y = 2000 + (4*b) -4 ;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 181) && (ngay_trong4nam < 212))
+            if ((ngay_trong4nam >= 182) && (ngay_trong4nam < 213))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 181;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 182;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 212) && (ngay_trong4nam < 243))
+            if ((ngay_trong4nam >= 213) && (ngay_trong4nam < 244))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 212;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 213;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 243) && (ngay_trong4nam < 273))
+            if ((ngay_trong4nam >= 244) && (ngay_trong4nam < 274))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 243;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 244;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 273) && (ngay_trong4nam < 304))
+            if ((ngay_trong4nam >= 274) && (ngay_trong4nam < 305))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 273;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 274;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >=304) && (ngay_trong4nam < 334))
+            if ((ngay_trong4nam >=305) && (ngay_trong4nam < 335))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 304;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 305;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 334) && (ngay_trong4nam<365))
+            if ((ngay_trong4nam >= 335) && (ngay_trong4nam<366))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 334;
-                y = 1970 + (4*b) -4;
+                ngay_trongthang = 1 + ngay_trong4nam - 335;
+                y = 2000 + (4*b) -4;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay<<endl;
             }
-            if ((ngay_trong4nam >= 365) && (ngay_trong4nam<396))
+            if ((ngay_trong4nam >= 366) && (ngay_trong4nam<397))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 365;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 366;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 396) && (ngay_trong4nam<424))
+            if ((ngay_trong4nam >= 397) && (ngay_trong4nam<425))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 396;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 397;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 424) && (ngay_trong4nam<455))
+            if ((ngay_trong4nam >= 425) && (ngay_trong4nam<456))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 424;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 425;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 455) && (ngay_trong4nam<485))
+            if ((ngay_trong4nam >= 456) && (ngay_trong4nam<486))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 455;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 456;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 485) && (ngay_trong4nam < 516))
+            if ((ngay_trong4nam >= 486) && (ngay_trong4nam < 517))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 485;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 486;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 516) && (ngay_trong4nam<546))
+            if ((ngay_trong4nam >= 517) && (ngay_trong4nam<547))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 516;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 517;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 546) && (ngay_trong4nam<577))
+            if ((ngay_trong4nam >= 547) && (ngay_trong4nam<578))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 546;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 547;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 577) && (ngay_trong4nam<608))
+            if ((ngay_trong4nam >= 578) && (ngay_trong4nam<609))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 577;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 578;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 608) && (ngay_trong4nam<638))
+            if ((ngay_trong4nam >= 609) && (ngay_trong4nam<639))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 608;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 609;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 638) && (ngay_trong4nam<669))
+            if ((ngay_trong4nam >= 639) && (ngay_trong4nam<670))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 638;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 639;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 669) && (ngay_trong4nam<699))
+            if ((ngay_trong4nam >= 670) && (ngay_trong4nam<700))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 669;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 670;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 699) && (ngay_trong4nam<730))
+            if ((ngay_trong4nam >= 700) && (ngay_trong4nam<731))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 699;
-                y = 1970 + (4*b) -3;
+                ngay_trongthang = 1 + ngay_trong4nam - 700;
+                y = 2000 + (4*b) -3;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 730) && (ngay_trong4nam<761))
+            if ((ngay_trong4nam >= 731) && (ngay_trong4nam<762))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 730;
-                y = 1970 + (4*b) -2;
+                ngay_trongthang = 1 + ngay_trong4nam - 731;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
-            if ((ngay_trong4nam >= 761) && (ngay_trong4nam<790))
+            if ((ngay_trong4nam >= 762) && (ngay_trong4nam<790))
             {
-                ngay_trongthang = 1 + ngay_trong4nam - 761;
-                y = 1970 + (4*b) - 2;
+                ngay_trongthang = 1 + ngay_trong4nam - 762;
+                y = 2000 + (4*b) - 2;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 790) && (ngay_trong4nam<821))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 790;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 821) && (ngay_trong4nam<851))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 821;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 851) && (ngay_trong4nam<882))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 851;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 882) && (ngay_trong4nam<912))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 882;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 912) && (ngay_trong4nam<943))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 912;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 943) && (ngay_trong4nam < 974))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 943;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 974) && (ngay_trong4nam<1004))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 974;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1004) && (ngay_trong4nam<1035))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1004;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1035) && (ngay_trong4nam<1065))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1035;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1065) && (ngay_trong4nam<1096))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1065;
-                y = 1970 + (4*b) -2;
+                y = 2000 + (4*b) -2;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1096) && (ngay_trong4nam<1127))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1096;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 01/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1127) && (ngay_trong4nam<1155))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1127;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 02/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1155) && (ngay_trong4nam<1186))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1155;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 03/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1186) && (ngay_trong4nam<1216))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1186;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 04/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1216) && (ngay_trong4nam<1247))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1216;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 05/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }if ((ngay_trong4nam >= 1247) && (ngay_trong4nam<1277))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1247;
-                y = 1970 + (4*b) +3;
+                y = 2000 + (4*b) +3;
                 cout << ngay_trongthang<<"/ 06/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1277) && (ngay_trong4nam<1308))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1277;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 07/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1308) && (ngay_trong4nam<1339))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1308;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 08/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1339) && (ngay_trong4nam<1369))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1339;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 09/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1369) && (ngay_trong4nam<1400))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1369;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 10/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1400) && (ngay_trong4nam<1430))
             {
                 ngay_trongthang = 1 + ngay_trong4nam - 1400;
-                y = 1970 + (4*b) -1;
+                y = 2000 + (4*b) -1;
                 cout << ngay_trongthang<<"/ 11/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
             if ((ngay_trong4nam >= 1430) && (ngay_trong4nam<1461))
             {
                 ngay_trongthang = 1 + ngay_trong4nam -1430 ;
-                y = 1970 + (4*b) - 1;
+                y = 2000 + (4*b) - 1;
                 cout << ngay_trongthang<<"/ 12/ "<<y<<endl;
                 cout << gio<<": "<<phut<<": "<<giay <<endl;
             }
