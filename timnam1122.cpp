@@ -1461,5 +1461,10 @@ int main()
         
     
     }
+    if (a==0)
+    {
+        cout << "00: 00: 00 "<< endl;
+        cout << "01/ 01/ 2000" << endl;
+    }
    return 0;
 }
