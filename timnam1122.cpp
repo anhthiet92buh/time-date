@@ -1,20 +1,30 @@
 #include <iostream>
 #include <time.h>
+#include <fstream>
+#include <vntime.h>
 using namespace std;
+using namespace vn;
 
 int main()
 {   
+
+    vntime;
+    ofstream ftoan;
+    ftoan.open("toan.txt",ios::out);
+
+
+
     time_t baygio = time(0);
     cout << baygio<< endl;
     //int a = baygio+25200; // khai bao a la so giay nhap vao 
-    int a;
-    cin >>a;
+    int a=baygio;
+    //cin >>a;
     //int s = a%60;
     //cout << "s = "<< s << endl;
     //int h = a/3600;
     //cout << "h = "<< h<< endl;
     int x = 126230400; //so giay trong chu ky 4 nam nhuan 1 lan
-    if (a >= 1)
+    if (a > 0)
     {   
         int b = static_cast<double>(a) / static_cast<double>(x);
         //cout << "b = "<<b<< endl;
