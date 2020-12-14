@@ -13,16 +13,17 @@
 #include <fstream>
 #include <unistd.h>
 #include <string>
-#include <vntime>
-
+#include "vntime.h"
+using namespace std;
+using namespace vn;
 
 //ofstream ffull("Full.txt");
 
 // namespace nguoi Viet Nam
-namespace vn{
-    double deltaX = 0.000001;   //Sai so tieu chuan
+/*namespace vn{
+   // double deltaX = 0.000001;   //Sai so tieu chuan
     // Kieu cau truc Time cua nguoi Viet Nam
-    struct vntime
+ vntime ngay_goc_vn(vntime *pt, int a, int b)
     {
         int sec_vn=0;// So giay trong 1 phut tu 0 den 60, mac dinh la 0
         int min_vn=0;// So phut trong 1 gio tu 0 den 60, mac dinh la 0
@@ -35,8 +36,8 @@ namespace vn{
     };
     struct RealTime
     {
-        /* data */
-    };
+        /* data 
+    };*/
     
 
     vntime ngay_goc_vn(vntime *pt, int a, int b){
@@ -264,36 +265,107 @@ namespace vn{
         };
     };
 
-
-};
-
-
-// In Ngay thang nam Gio phut Giay
-void InTime(vn::vntime *pt,int *weekday, int a){
-
-    if (a>0)
-    {
-        std::cout<<vn::ThuTrongTuan_Duong(weekday)<<" = "<<"Thu "<<pt->wday_vn<<" Ngay "<<pt->mday_vn<<" Thang "<<pt->mon_vn<<" Nam "<<pt->year_vn<<": "<<pt->hour_vn<<": "<<pt->min_vn<<"'"<<": "<<pt->sec_vn<<"''"<<std::endl;
-    };
-    if (a<0)
-    {
-        std::cout<<vn::ThuTrongTuan_Am(weekday)<<" = "<<"Thu "<<pt->wday_vn<<" Ngay "<<pt->mday_vn<<" Thang "<<pt->mon_vn<<" Nam "<<pt->year_vn<<": "<<pt->hour_vn<<": "<<pt->min_vn<<"'"<<": "<<pt->sec_vn<<"''"<<std::endl;
-    };
-    if (a=0)
-    {
-        std::cout<<"Thu "<<pt->wday_vn<<" Ngay "<<pt->mday_vn<<" Thang "<<pt->mon_vn<<" Nam "<<pt->year_vn<<": "<<pt->hour_vn<<": "<<pt->min_vn<<"'"<<": "<<pt->sec_vn<<"''"<<std::endl;
-    };
     
+    
+    int ngay_theo_giay (int s){
+        int ngay_theo_giay = s/86400;
+        return ngay_theo_giay;
+    };
 
-    //std::cout<<"Thu "<<pt->wday_vn<<" Ngay "<<pt->mday_vn<<" Thang "<<pt->mon_vn<<" Nam "<<pt->year_vn<<": "<<pt->hour_vn<<": "<<pt->min_vn<<"'"<<": "<<pt->sec_vn<<"''"<<std::endl;
-};
+    void gop_function(int a){
+        vntime *pt, t;
+        pt = &t;
+        int b = 2000;
+        if (a==0){
+            ngay_goc_vn(pt,a,b);
+            cout << "Thu "<< pt->wday_vn<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+        }
+        else {
+            int *slck4n, solanchuky4nam      = int(a/1461); // Lay chu ky 4 nam de tinh toan tim ra Time
+            //cout<<"Solanchu ky 4 nam: "<<solanchuky4nam<<" - sizeo int: "<<sizeof(int)<<endl;
+            slck4n=&solanchuky4nam;
 
-using namespace std;
-using namespace vn;
+            int *day_Moc,ngayMoc;
+            day_Moc=&ngayMoc;
+            //cout<<"Ngay Moc: "<<*day_Moc<<endl;
+
+            int *year_Moc, namMoc;
+            year_Moc = &namMoc;
+            //cout<<"Nam Moc: "<<*year_Moc<<endl;
+
+            int *day_chuky, ngaytrongchuky;
+            day_chuky = &ngaytrongchuky;
+            //cout<<"So ngay trong chu ky: "<<*day_chuky<<endl;
+            
+            int *week_day, dayofweek=a%7;
+            week_day = &dayofweek;
+            //cout<<"Ngay trong Tuan: "<<*week_day<<endl;
+
+            int *DayOfYear,ngaytrognam;
+            DayOfYear=&ngaytrognam;
+
+            if (a >0){
+                *day_Moc = int(*slck4n*1461);
+            
+            
+                if (a==*day_Moc)
+                {
+                    *year_Moc = int(b+*slck4n*4-4);
+                    *day_Moc=*day_Moc-1461;
+                }else
+                {
+                    *year_Moc = int(b+*slck4n*4);
+                };
+                ngaytrongchuky = int(a-*day_Moc);
+                TimNgay(pt,year_Moc,week_day,day_chuky);
+                cout<<ThuTrongTuan_Duong(week_day)<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+            }
+            else if (a<0) {
+                ngayMoc = int(*slck4n*1461-1461);
+                //cout<<"Ngay Moc: "<<*day_Moc<<endl;
+
+                
+                if (a-*day_Moc==1461)
+                {
+                *day_Moc=*day_Moc+1461;
+                namMoc = int(b+*slck4n*4);
+                }else
+                {
+                    namMoc = int(b+*slck4n*4-4);
+                };
+                
+                //namMoc = int(b+*slck4n*4-4);
+                //cout<<"Nam Moc: "<<*year_Moc<<endl;
+
+                ngaytrongchuky = int(a-*day_Moc+1);
+                //cout<<"So ngay trong chu ky: "<<*day_chuky<<endl;
+                //ffull<<a<<" "<<*day_Moc<<" "<<*year_Moc<<" "<<*day_chuky<<" "<<*week_day<<" "<<ThuTrongTuan_Am(week_day)<<endl;
+
+                TimNgay(pt,year_Moc,week_day,day_chuky);
+                cout<<ThuTrongTuan_Am(week_day)<<" "<< pt->mday_vn<<"/ "<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+            }
+            else
+            {
+                cout<<"Chương Trình Bị Lỗi"<<endl;
+            };
+            
+        
+            
+        };
+        
+        
+    };
+        
+
+
+
+
+
 
 int main(int argc, char const *argv[])
-{
-    vntime *pt, t;
+{   int s;
+    cin >> s;
+   /* vntime *pt, t;
     pt = &t;
     //--------------------------------
     int a,b=2000;  
@@ -310,7 +382,7 @@ int main(int argc, char const *argv[])
         /*if (i==-5)
         {
             ffull<<"So_Ngay_a"<<" "<<"Ngay_Moc"<<" "<<"Nam_Moc"<<" "<<"Ngay_trong_chu_ky"<<" "<<"Thu_trong_tuan"<<endl;
-        };*/
+        };
         
         a=i;
         cout<<"a = "<<a<<"---";
@@ -356,7 +428,7 @@ int main(int argc, char const *argv[])
 
         if (a>0)
         {
-            /* Truong hop a>0 */
+            /* Truong hop a>0 
             *day_Moc = int(*slck4n*1461);
             
             
@@ -392,7 +464,7 @@ int main(int argc, char const *argv[])
 
         }else if (a<0)
         {
-            /* Truong hop a<0 */
+            /* Truong hop a<0 
             ngayMoc = int(*slck4n*1461-1461);
             //cout<<"Ngay Moc: "<<*day_Moc<<endl;
 
@@ -433,7 +505,8 @@ int main(int argc, char const *argv[])
     
     };
     
-    ffull.close();
+    ffull.close();*/
+    gop_function(ngay_theo_giay(s));
 
     return 0;
 }
