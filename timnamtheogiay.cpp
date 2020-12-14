@@ -351,32 +351,171 @@ void so_ngay_trong_tung_nam(vntime *pt, int *nam, int *ngay_trong_4nam, int * ng
     if (a==0) thoi_gian_moc(pt, a, b);
     
 };
-int main()
-{
-    vntime *pt, t;
+  void Chuyen_doi_trong_nam_nhuan(vntime *pt, int *ngaytrongnam, int *yearMoc, int *weekday){
+        pt->year_vn=*yearMoc;
+        pt->yday_vn=*ngaytrongnam;
+        pt->wday_vn=*weekday;
+
+        if (*ngaytrongnam<=31)
+        {
+            pt->mday_vn=*ngaytrongnam;
+            pt->mon_vn = 1;            
+        };
+        if ((*ngaytrongnam>31)&&(*ngaytrongnam<=60))
+        {
+            pt->mday_vn=*ngaytrongnam-31;
+            pt->mon_vn = 2;
+        };
+        if ((*ngaytrongnam>60)&&(*ngaytrongnam<=91))
+        {
+            pt->mday_vn=*ngaytrongnam-60;
+            pt->mon_vn = 3;
+        };
+        if ((*ngaytrongnam>91)&&(*ngaytrongnam<=121))
+        {
+            pt->mday_vn=*ngaytrongnam-91;
+            pt->mon_vn = 4;
+        };
+        if ((*ngaytrongnam>121)&&(*ngaytrongnam<=152))
+        {
+            pt->mday_vn=*ngaytrongnam-121;
+            pt->mon_vn = 5;
+        };
+        if ((*ngaytrongnam>152)&&(*ngaytrongnam<=182))
+        {
+            pt->mday_vn=*ngaytrongnam-152;
+            pt->mon_vn = 6;
+        };
+        if ((*ngaytrongnam>182)&&(*ngaytrongnam<=213))
+        {
+            pt->mday_vn=*ngaytrongnam-182;
+            pt->mon_vn = 7;
+        };
+        if ((*ngaytrongnam>213)&&(*ngaytrongnam<=244))
+        {
+            pt->mday_vn=*ngaytrongnam-213;
+            pt->mon_vn = 8;
+        };
+        if ((*ngaytrongnam>244)&&(*ngaytrongnam<=274))
+        {
+            pt->mday_vn=*ngaytrongnam-244;
+            pt->mon_vn = 9;
+        };
+        if ((*ngaytrongnam>274)&&(*ngaytrongnam<=305))
+        {
+            pt->mday_vn=*ngaytrongnam-274;
+            pt->mon_vn = 10;
+        };
+        if ((*ngaytrongnam>305)&&(*ngaytrongnam<=335))
+        {
+            pt->mday_vn=*ngaytrongnam-305;
+            pt->mon_vn = 11;
+        };
+        if ((*ngaytrongnam>335)&&(*ngaytrongnam<=366))
+        {
+            pt->mday_vn=*ngaytrongnam-335;
+            pt->mon_vn = 12;
+        };
+    };
+    void Chuyen_doi_trong_nam_thuong(vntime *pt, int *ngaytrongnam, int *yearMoc, int *weekday,int *ngaytrongchuky){
+        if((*ngaytrongchuky>366)&&(*ngaytrongchuky<=731)) pt->year_vn=*yearMoc+1;
+        if((*ngaytrongchuky>731)&&(*ngaytrongchuky<=1096)) pt->year_vn=*yearMoc+2;
+        if((*ngaytrongchuky>1096)&&(*ngaytrongchuky<=1461)) pt->year_vn=*yearMoc+3; 
+        //pt->year_vn=*yearMoc;
+        pt->yday_vn=*ngaytrongnam;
+        pt->wday_vn=*weekday;
+
+        if (*ngaytrongnam<=31)
+        {
+            pt->mday_vn=*ngaytrongnam;
+            pt->mon_vn = 1;            
+        };
+        if ((*ngaytrongnam>31)&&(*ngaytrongnam<=59))
+        {
+            pt->mday_vn=*ngaytrongnam-31;
+            pt->mon_vn = 2;
+        };
+        if ((*ngaytrongnam>59)&&(*ngaytrongnam<=90))
+        {
+            pt->mday_vn=*ngaytrongnam-59;
+            pt->mon_vn = 3;
+        };
+        if ((*ngaytrongnam>90)&&(*ngaytrongnam<=120))
+        {
+            pt->mday_vn=*ngaytrongnam-90;
+            pt->mon_vn = 4;
+        };
+        if ((*ngaytrongnam>120)&&(*ngaytrongnam<=151))
+        {
+            pt->mday_vn=*ngaytrongnam-120;
+            pt->mon_vn = 5;
+        };
+        if ((*ngaytrongnam>151)&&(*ngaytrongnam<=181))
+        {
+            pt->mday_vn=*ngaytrongnam-151;
+            pt->mon_vn = 6;
+        };
+        if ((*ngaytrongnam>181)&&(*ngaytrongnam<=212))
+        {
+            pt->mday_vn=*ngaytrongnam-181;
+            pt->mon_vn = 7;
+        };
+        if ((*ngaytrongnam>212)&&(*ngaytrongnam<=243))
+        {
+            pt->mday_vn=*ngaytrongnam-212;
+            pt->mon_vn = 8;
+        };
+        if ((*ngaytrongnam>243)&&(*ngaytrongnam<=273))
+        {
+            pt->mday_vn=*ngaytrongnam-243;
+            pt->mon_vn = 9;
+        };
+        if ((*ngaytrongnam>273)&&(*ngaytrongnam<=304))
+        {
+            pt->mday_vn=*ngaytrongnam-273;
+            pt->mon_vn = 10;
+        };
+        if ((*ngaytrongnam>304)&&(*ngaytrongnam<=334))
+        {
+            pt->mday_vn=*ngaytrongnam-304;
+            pt->mon_vn = 11;
+        };
+        if ((*ngaytrongnam>334)&&(*ngaytrongnam<=365))
+        {
+            pt->mday_vn=*ngaytrongnam-334;
+            pt->mon_vn = 12;
+        };
+    };
+    void TimNgay(vntime *pt,int *yearMoc, int *weekDay, int *ngaytrongchuky){
+        int dayofyear;
+        if(*ngaytrongchuky<=366) Chuyen_doi_trong_nam_nhuan(pt,ngaytrongchuky,yearMoc,weekDay);
+        if((*ngaytrongchuky>366)&&(*ngaytrongchuky<=731)) {
+            dayofyear=*ngaytrongchuky-366;
+            Chuyen_doi_trong_nam_thuong(pt,&dayofyear,yearMoc,weekDay,ngaytrongchuky);
+        };
+        if((*ngaytrongchuky>731)&&(*ngaytrongchuky<=1096)){
+            dayofyear=*ngaytrongchuky-731;
+            Chuyen_doi_trong_nam_thuong(pt,&dayofyear,yearMoc,weekDay,ngaytrongchuky);
+        };
+        if((*ngaytrongchuky>1096)&&(*ngaytrongchuky<=1461)){
+            dayofyear=*ngaytrongchuky-1096;
+            Chuyen_doi_trong_nam_thuong(pt,&dayofyear,yearMoc,weekDay,ngaytrongchuky);
+        };
+    };
+void in_ca_gio_phut_giay(int a){
+    vntime *pt,t;
     pt = &t;
-    int a=time(0)-946684800, b = 2000;
-    //cin >> a;
-
-    ofstream ffull;
-    ffull.open("Full.txt",ios::out);
-
-    for (int i = -2000; i < 0; i++)
+    int b = 2000;
+    if (a==0)
     {
-        a=i*86000; 
-
-        if (a==0)
-        {
-            thoi_gian_moc(pt, a, b);
-            cout << "Thu "<< pt->wday_vn<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
-            cout<< pt->hour_vn<<": "<<pt->min_vn<<": "<<pt->sec_vn<<endl;
-            ffull<<a<<" "<<pt->mday_vn<<" "<<pt->mon_vn<<" "<<pt->year_vn<<" "<<pt->hour_vn<<" "<<pt->min_vn<<" "<<pt->sec_vn<<endl;
-        }
-        else
-        {
-            if (a>0)
-            {
-                int *slck4n, solanchuky4nam = int (a / 126230400);
+        thoi_gian_moc(pt, a, b);
+        cout << "Thu "<< pt->wday_vn<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+        cout<< pt->hour_vn<<": "<<pt->min_vn<<": "<<pt->sec_vn<<endl;
+    }
+    else
+    {
+        if (a>0)
+        {       int *slck4n, solanchuky4nam = int (a / 126230400);
                 slck4n = &solanchuky4nam;
                 int *ngaytrong4nam, ngay_trong_4nam = int (1461*a/126230400 - *slck4n*1461) + 1;
                 ngaytrong4nam = &ngay_trong_4nam;
@@ -395,14 +534,10 @@ int main()
                 so_ngay_trong_tung_nam(pt,namtuongung,ngaytrong4nam,ngaytrongtuan,a,h,m,s,b);
                 cout<<ThuTrongTuan_Duong(ngaytrongtuan)<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
                 cout<< pt->hour_vn<<": "<<pt->min_vn<<": "<<pt->sec_vn<<endl;
-               // cout << "slck4n = " << solanchuky4nam<<endl;
-               // cout << "ngaytrong4nam = "<< *ngaytrong4nam<<endl;
-                //cout <<"ngaytrongtuan = "<<ngay_trong_tuan<<endl;
-                ffull<<a<<" "<<ThuTrongTuan_Duong(ngaytrongtuan)<<" "<<pt->mday_vn<<" "<<pt->mon_vn<<" "<<pt->year_vn<<" "<<pt->hour_vn<<" "<<pt->min_vn<<" "<<pt->sec_vn<<endl;
-               // cout << "nam = "<< nam<< endl;
-            }
-            else if (a<0)
-            {
+
+        }
+        else if (a < 0)
+        {
                 int *slck4n, solanchuky4nam = int (a / -126230400);
                 slck4n = &solanchuky4nam;
                 int *ngaytrong4nam, ngay_trong_4nam = 1+ ((a+(126230400*(*slck4n+1)))%126230400)/86400;
@@ -422,27 +557,144 @@ int main()
                 so_ngay_trong_tung_nam(pt,namtuongung,ngaytrong4nam,ngaytrongtuan,a,h,m,s,b);
                 cout<<ThuTrongTuan_Am(ngaytrongtuan)<<" "<< pt->mday_vn<<"/ "<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
                 cout<<pt->hour_vn<<": "<<pt->min_vn<<": "<<pt->sec_vn<<endl;
-               // cout << "slck4n " << solanchuky4nam<< endl;
-               // cout << "ngay trong 4 nam "<< ngay_trong_4nam<<endl;
-               // cout << "nam tuong ung "<< nam<<endl;
-               // cout <<"ngay trong tuan "<< ngay_trong_tuan<< endl;
-                ffull<<a<<" "<<ThuTrongTuan_Am(ngaytrongtuan)<<"  "<<pt->mday_vn<<" "<<pt->mon_vn<<" "<<pt->year_vn<<" "<<pt->hour_vn<<" "<<pt->min_vn<<" "<<pt->sec_vn<<std::endl;
 
+        }
+        else
+        {
+            cout<<"====chuong trinh bi loi===="<< endl;
+        };
 
+    };
+    
+    
+};
+int ngay_theo_giay(int a){
+    int ngay_theo_giay = a/86400;
+    return ngay_theo_giay;
+};
+void ko_in_gio_phut_giay(int c){
+    vntime *pt, t;
+    pt = &t;
+    int b = 2000;
+    if (c==0){
+            thoi_gian_moc(pt,c,b);
+            cout << "Thu "<< pt->wday_vn<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+        }
+        else {
+            int *slck4n, solanchuky4nam      = int(c/1461); // Lay chu ky 4 nam de tinh toan tim ra Time
+            //cout<<"Solanchu ky 4 nam: "<<solanchuky4nam<<" - sizeo int: "<<sizeof(int)<<endl;
+            slck4n=&solanchuky4nam;
+
+            int *day_Moc,ngayMoc;
+            day_Moc=&ngayMoc;
+            //cout<<"Ngay Moc: "<<*day_Moc<<endl;
+
+            int *year_Moc, namMoc;
+            year_Moc = &namMoc;
+            //cout<<"Nam Moc: "<<*year_Moc<<endl;
+
+            int *day_chuky, ngaytrongchuky;
+            day_chuky = &ngaytrongchuky;
+            //cout<<"So ngay trong chu ky: "<<*day_chuky<<endl;
+            
+            int *week_day, dayofweek=c%7;
+            week_day = &dayofweek;
+            //cout<<"Ngay trong Tuan: "<<*week_day<<endl;
+
+            int *DayOfYear,ngaytrognam;
+            DayOfYear=&ngaytrognam;
+
+            if (c >0){
+                *day_Moc = int(*slck4n*1461);
+            
+            
+                if (c==*day_Moc)
+                {
+                    *year_Moc = int(b+*slck4n*4-4);
+                    *day_Moc=*day_Moc-1461;
+                }else
+                {
+                    *year_Moc = int(b+*slck4n*4);
+                };
+                ngaytrongchuky = int(c-*day_Moc+1);
+                TimNgay(pt,year_Moc,week_day,day_chuky);
+                cout<<ThuTrongTuan_Duong(week_day)<< "  "<< pt->mday_vn<<"/"<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
             }
-            else 
+            else if (c<0) {
+                ngayMoc = int(*slck4n*1461-1461);
+                //cout<<"Ngay Moc: "<<*day_Moc<<endl;
+
+                
+                if (c-*day_Moc==1461)
+                {
+                *day_Moc=*day_Moc+1461;
+                namMoc = int(b+*slck4n*4);
+                }else
+                {
+                    namMoc = int(b+*slck4n*4-4);
+                };
+                
+                //namMoc = int(b+*slck4n*4-4);
+                //cout<<"Nam Moc: "<<*year_Moc<<endl;
+
+                ngaytrongchuky = int(c-*day_Moc);
+                //cout<<"So ngay trong chu ky: "<<*day_chuky<<endl;
+                //ffull<<a<<" "<<*day_Moc<<" "<<*year_Moc<<" "<<*day_chuky<<" "<<*week_day<<" "<<ThuTrongTuan_Am(week_day)<<endl;
+
+                TimNgay(pt,year_Moc,week_day,day_chuky);
+                cout<<ThuTrongTuan_Am(week_day)<<" "<< pt->mday_vn<<"/ "<<pt->mon_vn<<"/ "<<pt->year_vn<<endl;
+            }
+            else
             {
                 cout<<"Chương Trình Bị Lỗi"<<endl;
             };
             
-            
-
-        };
         
-    
+            
+        };
+};
+int main()
+{
+   // vntime *pt, t;
+   // pt = &t;
+    //int a=time(0)-946684800, b = 2000;
+    int a;
+    cin >> a;
 
-    };
+    ofstream ffull;
+    ffull.open("Full.txt",ios::out);
+    //in_ca_gio_phut_giay(a);
+    //ko_in_gio_phut_giay(ngay_theo_giay(a));
+    bool isExc = false;
+    int number;
+    do{
+        cout << "__________Chon kieu ban muon in__________"<< endl;
+        cout<<"1. in ngay/thang/nam/gio/phut/giay."<<endl;
+        cout<<"2. in ngay/thang/nam."<<endl;
+        cout<<"3. Thoat."<<endl;
+        cout<<"Moi ban chon:"<<endl;
+        cin>>number;
+        cout<<"ban chon: "<< number<<endl;
+        switch (number)
+        {
+        case 1:
+            in_ca_gio_phut_giay(a);
+            break;
+        case 2:
+            ko_in_gio_phut_giay(ngay_theo_giay(a));
+            break;
+        case 3:
+            isExc = true;
+            break;
+        default:
+            cout<<"======Lua chon cua ban toi bo tay. Chon lai nao ======= "<< endl;
+            break;
+        }
 
+    }
+    while (!isExc);
+
+   
 
 
     return 0;
